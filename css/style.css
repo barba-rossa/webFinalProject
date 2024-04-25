@@ -86,6 +86,14 @@ td {
   --primary-shadow: rgba(6, 6, 6, 0.4);
 }
 
+.dark-theme {
+  --bg-color: #333;
+  --text-color: #f9f9f9;
+  --primary-color: #ff7235;
+  --secondary-color: #d39a08;
+  --primary-shadow: rgba(255, 114, 53, 0.4);
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -335,4 +343,48 @@ table tr:hover {
     flex-direction: column;
     align-items: flex-start;
   }
+}
+
+.rickNmorty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3.5rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    text-align: center;
+  }
+}
+
+.rickNmorty .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.rickNmorty button {
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.rickNmorty button:hover {
+  background-color: #0056b3;
+}
+
+.rickNmorty #characterImage {
+  margin-top: 20px;
 }
