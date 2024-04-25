@@ -1,24 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>HTML Cheatsheet</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <h1>Felipe Barbosa</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="/hobby.html">Hobby</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="css-cheatsheet.html">CSS Cheatsheet</a></li>
-                <li><a href="js-cheatsheet.html">JS Cheatsheet</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <h1>Felipe Barbosa</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/hobby.html">Hobby</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="css-cheatsheet.html">CSS Cheatsheet</a></li>
+
+        </ul>
+      </nav>
     </header>
+    <main>
+      <div class="htmlCheatSheetMain">
+        <div class="basicTags">
+
+          <table>
+            <caption>Basic Tags</caption>
+            <tr>
+              <th>HTML Tag</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>&lt;html&gt;</td>
+              <td>Creates an HTML document</td>
+            </tr>
+            <tr>
+              <td>&lt;head&gt;</td>
+              <td>Sets off the title & other info that isn't displayed</td>
+            </tr>
+            <tr>
+              <td>&lt;body&gt;</td>
+              <td>Sets off the visible portion of the document</td>
+            </tr>
+            <tr>
+              <td>&lt;title&gt;</td>
+              <td>
+                Puts name of the document in the title bar; when bookmarking
+                pages, this is what is bookmarked
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="formatting">
+          <table>
+            <caption>Formatting</caption>
+            <tr>
+              <th>HTML Tag</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>&lt;h1&gt; to &lt;h6&gt;</td>
+              <td>
+                Header tags, with &lt;h1&gt; being the largest and &lt;h6&gt;
+                the smallest
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;p&gt;</td>
+              <td>Paragraph</td>
+            </tr>
+            <tr>
+              <td>&lt;br&gt;</td>
+              <td>Breaks the line</td>
+            </tr>
+            <tr>
+              <td>&lt;hr&gt;</td>
+              <td>Horizontal rule</td>
+            </tr>
+          </table>
+        </div>
+        <div class="lists">
+          <table>
+            <caption>Lists</caption>
+            <tr>
+              <th>HTML Tag</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>&lt;ul&gt;</td>
+              <td>Unordered list</td>
+            </tr>
+            <tr>
+              <td>&lt;ol&gt;</td>
+              <td>Ordered list</td>
+            </tr>
+            <tr>
+              <td>&lt;li&gt;</td>
+              <td>List item</td>
+            </tr>
+            <tr>
+              <td>&lt;dl&gt;</td>
+              <td>Definition list</td>
+            </tr>
+          </table>
+        </div>
+        <div class="links">
+            <table>
+                <caption>Links</caption>
+                <tr>
+              <th>HTML Tag</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>&lt;a&gt;</td>
+              <td>Anchor tag</td>
+            </tr>
+            <tr>
+              <td>&lt;link&gt;</td>
+              <td>Link tag</td>
+            </tr>
+            <tr>
+              <td>&lt;nav&gt;</td>
+              <td>Navigation</td>
+            </tr>
+            <tr>
+              <td>&lt;section&gt;</td>
+              <td>Section</td>
+            </tr>
+          </table>
+        </div>
+        <div class="graphicalElements">
+          <table>
+            <caption>Graphical Elements</caption>
+            <tr>
+              <th>HTML Tag</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>&lt;hr&gt;</td>
+              <td>Inserts a horizontal rule</td>
+            </tr>
+            <tr>
+              <td>&lt;hr size="?"&gt;</td>
+              <td>Sets size (height) of horizontal rule</td>
+            </tr>
+            <tr>
+              <td>&lt;hr width="?"&gt;</td>
+              <td>Sets width of rule (as a % or absolute pixel length)</td>
+            </tr>
+            <tr>
+              <td>&lt;hr noshade&gt;</td>
+              <td>Creates a horizontal rule without a shadow</td>
+            </tr>
+            <tr>
+              <td>&lt;img src="URL" /&gt;</td>
+              <td>Adds image; it is a separate file located at the URL</td>
+            </tr>
+            <tr>
+              <td>&lt;img src="URL" align="?"/&gt;</td>
+              <td>
+                Aligns image left/right/center/bottom/top/middle (use CSS)
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;img src="URL" border="?"/&gt;</td>
+              <td>Sets size of border surrounding image (use CSS)</td>
+            </tr>
+            <tr>
+              <td>&lt;img src="URL" height="?"/&gt;</td>
+              <td>Sets height of image, in pixels</td>
+            </tr>
+            <tr>
+              <td>&lt;img src="URL" width="?"/&gt;</td>
+              <td>Sets width of image, in pixels</td>
+            </tr>
+            <tr>
+              <td>&lt;img src="URL" alt="?"/&gt;</td>
+              <td>
+                Sets the alternate text for browsers that can't process images
+                (required by the ADA)
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy; 2024 - Made by
+        <a href="https://github.com/Barba-rossa">Barba-rossa</a>
+      </p>
+    </footer>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

@@ -1,24 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>CSS Cheatsheet</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <h1>Felipe Barbosa</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="/hobby.html">Hobby</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="html-cheatsheet.html">HTML Cheatsheet</a></li>
-                <li><a href="js-cheatsheet.html">JS Cheatsheet</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <h1>Felipe Barbosa</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/hobby.html">Hobby</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="html-cheatsheet.html">HTML Cheatsheet</a></li>
+
+        </ul>
+      </nav>
     </header>
+    <main>
+      <div class="css-cheatsheet">
+        <div class="sheet1">
+          <h2><u>Font Properties</u></h2>
+          <h3>Font Family</h3>
+          <p>
+            Changes the font family of certain words, sentences, paragraphs,
+            etc. P { font-family: "New Century Schoolbook", Times, serif; }
+          </p>
+          <hr>
+          <h3>Font-Style</h3>
+          <p>
+            Changes text: normal, oblique, and italics. H1 { font-style:
+            oblique; } P { font-style: normal; }
+          </p>
+          <hr>
+          <h3>Font-Variant</h3>
+          <p>
+            Used to display font in normal or small-caps. SPAN { font-variant:
+            small-caps; } Font-Weight Used to specify the weight of the font. H1
+            { font-weight: 800; } or P { font-weight: normal; }
+          </p>
+          <hr>
+          <h3>Font-Size</h3>
+          <p>
+            Used to modify the size of the displayed font. H1 { font-size:
+            large; } or P { font-size: 12pt; } LI { font-size: 90%; } STRONG {
+            font-size: larger; }
+          </p>
+          <hr>
+          <h3>
+            Font
+          </h3>
+          <p>
+            Font Used to combine all properties of fonts. P { font: italic bold
+            12pt/14pt Times, serif; }
+          </p>
+
+        </div>
+        <div class="sheet2">
+            <h2><u>Text Properties</u></h2>
+            <h3>Word-Spacing</h3>
+            <p>
+                Defines an additional amount of space between words.
+                P EM { word-spacing: 0.4em; }
+                P.note { word-spacing: -0.2em; }
+            </p>
+            <hr>
+            <h3>Letter-Spacing</h3>
+            <p>
+                Defines an additional amount of space between characters.
+                H1 { letter-spacing: 0.1em; }
+                P.note { letter-spacing: -0.1em; }
+            </p>
+            <hr>
+            <h3>Text-Decoration</h3>
+            <p>
+                Allows text to be decorated through one of five properties:
+                underline, overline, line-through, blink, none.
+                A:link, A:visited, A:active { text-decoration: none; }
+            </p>
+            <hr>
+            <h3>Vertical-Align</h3>
+            <p>
+                Used to alter the vertical positioning of an inline element,
+                relative to its parent element or to the element's line.
+                IMG.middle { vertical-align: middle; }
+                IMG { vertical-align: 50%; }
+                .exponent { vertical-align: super; }
+            </p>
+            <hr>
+            <h3>Text-Transform</h3>
+            <p>
+                Allows for capitalizing the first letter of each word (capitalize),
+                capitalizing all letters of a word (uppercase), using all small
+                letters in each word(lowercase), and the inital value(none).
+                H1 { text-transform: uppercase; }
+                H2 { text-transform: capitalize; }
+            </p>
+            <hr>
+            <h3>Text-Align</h3>
+            <p>
+                Used to justify text left, center, right, and justify.
+                H1 { text-align: center; }
+                P.newspaper { text-align: justify; }
+            </p>
+            <hr>
+            <h3>Text-Indent</h3>
+            <p>
+                Used to specify the amount of indentation prior to the first line
+                of text.
+                P { text-indent: 5em; }
+            </p>
+            <hr>
+            <h3>Line-Height</h3>
+            <p>
+                Used to control the spacing between baselines of text.
+                P { line-height: 200%; }
+            </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy; 2024 - Made by
+        <a href="https://github.com/Barba-rossa">Barba-rossa</a>
+      </p>
+    </footer>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
